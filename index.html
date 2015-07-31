@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>插件1</title>
+		<link type="text/css" href="css/example.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!--div及ul中的li数量不定，但需要随li数量调整div及ul的width值-->
+		<div class="nav-wrap">
+			<ul class="group" id="example">
+				<li class="current_page_item"><a href="#" >HOME</a></li>
+				<!--current_page_item为第一个li，与其他li作区别-->
+				<!--接下来为剩余的li，具有与第一个li不同的css-->
+				<li class="item"><a href="#">ABOUT</a></li>     
+				<li class="item"><a href="#" >CONTACT</a></li>
+				<li class="item"><a href="#" >PORTFOLIO</a></li>
+				<li class="item"><a href="#" >OTHER</a></li>
+				<li class="item"><a href="#" >JOURNAL</a></li>
+			</ul>
+		</div>
+		<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/example.js" ></script>
+		
+	</body>
+</html>
